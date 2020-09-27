@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css" />
     <title><%=title%></title>
 </head>
 <body>
     <main>
         <h1><%= title%></h1>
         <p>Bem vindo(a) ao <strong><%=title%></strong></p>
-        <strong><%=name%></strong>
-        <p><%=profession%></p>
-        <p><%=description%></p>
         <ul>
+            <h3><%=name%></h3>
+                <p><%=profession%>.</p>
+                <p><%=description%>.</p>
+        </ul>
+        <hr>
+        <ul>
+            <h3>Experiência</h3>
             <% experience.map(experience => { %>
                 <li>
                     <div>
@@ -24,7 +29,9 @@
                 </li>    
             <% });%>
         </ul>
+        <hr>
         <ul>
+            <h3>Formação</h3>
             <%education.map(education => {%>
                 <li>
                     <div>
@@ -35,7 +42,9 @@
                 </li>
             <%});%>
         </ul>
+        <hr>
         <ul>
+            <h3>Skills</h3>
             <% skills.map(skill => {%>
                 <li><%= skill %></li>
             <%});%>

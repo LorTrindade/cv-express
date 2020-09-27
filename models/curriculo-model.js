@@ -2,22 +2,22 @@ const data = {
     title: 'Meu Curriculo',
     name: 'Lorhana Trindade',
     profession: 'Full-Stack Developer',
-    description: 'Experiência em desenvolvimento de single page application com Javascript e NodeJS',
+    description: 'Experiência em desenvolvimento de SPA, automação e integração de processos com Javascript e NodeJS.',
     experience: [{
         company: 'Lasa',
         office: 'Full-Stack Developer',
-        description: 'Trabalho no squad de automação e melhoria de processos'
+        description: 'Trabalho na equipe de automação e melhoria de processos.'
     },
     {
-        company: 'Casa do Código',
-        office: 'Escritora',
-        description: 'Autora dos tutoriais de programação para iniciante'
+        company: 'Unigranrio',
+        office: 'Graduada',
+        description: 'Formada no curso de Análise e Desenvolvimento de Sistemas.'
     }],
     education:[{
-        institution: 'Vida',
-        description: 'Aprendendo no dia a dia com os bugs e pesquisas'
+        institution: 'Unigranrio',
+        description: 'Análise e Desenvolvimento de Sistemas'
     }],
-    skills:['backend', 'frontend', 'devops', 'mobile']
+    skills:['backend', 'devops', 'frontend', 'mobile']
 }
 
 module.exports = data;

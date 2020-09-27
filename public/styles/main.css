@@ -1,0 +1,13 @@
+body {
+    font: 18px "Lucida GRande", Helvetica, Arial, sans-serif;
+    line-height: 2;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+li {
+    margin-left: 25px;
+}
